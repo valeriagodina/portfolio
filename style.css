@@ -152,7 +152,7 @@ nav a:hover::after {
 .section-number {
     color: var(--sage);
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-size: 18px;
 
@@ -164,7 +164,7 @@ nav a:hover::after {
 .section-heading h2 {
     color: white;
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-size: clamp(45px, 6vw, 70px);
 
@@ -209,7 +209,7 @@ nav a:hover::after {
 .small-title {
     color: var(--sage);
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-size: 22px;
 
@@ -222,7 +222,7 @@ nav a:hover::after {
 .hero h1 {
     color: white;
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-size: clamp(45px, 6vw, 78px);
 
@@ -239,7 +239,7 @@ nav a:hover::after {
 .hero h2 {
     color: white;
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-size: clamp(18px, 2vw, 25px);
 
@@ -254,7 +254,7 @@ nav a:hover::after {
 .intro {
     color: #eeeeee;
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-size: clamp(16px, 1.5vw, 19px);
 
@@ -345,7 +345,7 @@ nav a:hover::after {
 
     color: white;
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-size: 18px;
 
@@ -456,7 +456,7 @@ nav a:hover::after {
 
     color: var(--sage);
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-size: 18px;
 
@@ -469,7 +469,7 @@ nav a:hover::after {
 .experience-card h3 {
     color: white;
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-size: clamp(24px, 3vw, 32px);
 
@@ -484,7 +484,7 @@ nav a:hover::after {
 
     color: #d7e0dc;
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-size: 20px;
 
@@ -497,7 +497,7 @@ nav a:hover::after {
 .experience-card p {
     color: #eeeeee;
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-size: 18px;
 
@@ -564,7 +564,7 @@ nav a:hover::after {
 .project-header h3 {
     color: white;
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-size: clamp(30px, 4vw, 45px);
 
@@ -581,7 +581,7 @@ nav a:hover::after {
 .project-header p {
     color: #eeeeee;
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-size: 19px;
 
@@ -620,7 +620,7 @@ nav a:hover::after {
 
     color: #ffffff;
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-weight: bold;
 
@@ -637,7 +637,7 @@ nav a:hover::after {
 .project-section > p {
     color: #eeeeee;
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-size: 17px;
 
@@ -670,7 +670,7 @@ nav a:hover::after {
 .solution-item h4 {
     color: white;
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-size: 21px;
 
@@ -683,7 +683,7 @@ nav a:hover::after {
 .solution-item p {
     color: #eeeeee;
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-size: 17px;
 
@@ -700,7 +700,7 @@ nav a:hover::after {
 .tools {
     color: white !important;
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-size: 17px !important;
 
@@ -766,7 +766,7 @@ nav a:hover::after {
 .skill-card h3 {
     color: white;
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-size: 28px;
 
@@ -779,7 +779,7 @@ nav a:hover::after {
 .skill-card p {
     color: #dddddd;
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-size: 17px;
 
@@ -833,7 +833,7 @@ nav a:hover::after {
 .contact-message {
     color: white;
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-size: clamp(28px, 3vw, 38px);
 
@@ -845,7 +845,7 @@ nav a:hover::after {
 .contact-subtitle {
     color: #eeeeee;
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-size: 18px;
 
@@ -918,7 +918,7 @@ nav a:hover::after {
 
     font-size: 28px;
 
-    font-family: Arial, sans-serif;
+    font-family: JetBrains Mono, monospace;
 }
 
 
@@ -945,7 +945,7 @@ nav a:hover::after {
 .contact-option-text h3 {
     color: white;
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-size: 22px;
 
@@ -956,7 +956,7 @@ nav a:hover::after {
 .contact-option-text p {
     color: #cccccc;
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-size: 16px;
 }
@@ -990,7 +990,7 @@ footer {
 
     color: var(--sage);
 
-    font-family: Garamond, serif;
+    font-family: JetBrains Mono, monospace;
 
     font-size: 16px;
 }
