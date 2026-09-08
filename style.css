@@ -15,7 +15,7 @@ html {
 body {
     background-color: #172721;
     color: #ffffff;
-    font-family: Arial, sans-serif;
+    font-family: JetBrains Mono, monospace;
     overflow-x: hidden;
 }
 
