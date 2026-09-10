@@ -297,15 +297,17 @@ nav a:hover::after {
    LIGHER CIRCLE
 ========================================================= */
 .circle-one {
-    width: 900px;
-    height: 900px;
+    width: 700px;
+    height: 700px;
 
     background-color: #497264;
 
-    right: -500px;
-    top: 20%;
+    right: -250px;
+    top: 18%;
 
     opacity: 0.25;
+
+    position: absolute;
 
 }
 
@@ -313,15 +315,17 @@ nav a:hover::after {
    TRANSITION CIRCLE
 ========================================================= */
 .circle-two {
-    width: 1050px;
-    height: 1050px;
+    width: 850px;
+    height: 850px;
 
     background-color: #466d61;
 
-    right: -500px;
+    right: -300px;
     top: 10%;
 
     opacity: 0.2;
+
+    position: absolute;
 
 }
 
