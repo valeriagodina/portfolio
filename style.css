@@ -94,7 +94,7 @@ nav ul {
 nav a {
     position: relative;
 
-    font-size: 16px;
+    font-size: 15px;
 
     text-decoration: none;
 
@@ -146,7 +146,7 @@ nav a:hover::after {
 /* Section heading */
 
 .section-heading {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 .section-number {
@@ -166,7 +166,7 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: clamp(45px, 6vw, 70px);
+    font-size: clamp(30px, 5vw, 50px);
 
     font-weight: bold;
 }
@@ -189,7 +189,6 @@ nav a:hover::after {
 
     overflow: visible;
 
-    z-index: 2;
 }
 
 
@@ -198,7 +197,7 @@ nav a:hover::after {
 .hero-content {
     position: relative;
 
-    z-index: 5;
+    z-index: 1;
 
     width: min(650px, 100%);
 }
@@ -211,7 +210,7 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: 22px;
+    font-size: 18px;
 
     margin-bottom: 10px;
 }
@@ -224,7 +223,7 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: clamp(45px, 6vw, 78px);
+    font-size: clamp(30px, 5vw, 50px);
 
     line-height: 0.95;
 
@@ -241,7 +240,7 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: clamp(18px, 2vw, 25px);
+    font-size: clamp(15px, 2vw, 18px);
 
     font-weight: normal;
 
@@ -256,7 +255,7 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: clamp(16px, 1.5vw, 19px);
+    font-size: clamp(14px, 1.5vw, 15px);
 
     line-height: 1.7;
 
@@ -273,13 +272,11 @@ nav a:hover::after {
 .hero-background {
     position: absolute;
 
-    top: 0;
-
-    left: 0;
+    inset: 0;
 
     width: 100%;
 
-    height: 1400px;
+    height: 100%;
 
     pointer-events: none;
 
@@ -300,16 +297,15 @@ nav a:hover::after {
    LIGHER CIRCLE
 ========================================================= */
 .circle-one {
-    width: 1000px;
+    width: 900px;
     height: 900px;
 
-    background-color: #6b9181;
+    background-color: #497264;
 
-    right: -550px;
-    top: 30%;
+    right: -500px;
+    top: 20%;
 
-    opacity: 0.9;
-    z-index: 1;
+    opacity: 0.25;
 
 }
 
@@ -320,13 +316,13 @@ nav a:hover::after {
     width: 1050px;
     height: 1050px;
 
-    background-color: #335247;
+    background-color: #466d61;
 
     right: -500px;
-    top: 25%;
+    top: 10%;
 
-    opacity: 0.95;
-    z-index: 0;
+    opacity: 0.2;
+
 }
 
 
@@ -347,7 +343,7 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: 18px;
+    font-size: 15px;
 
     text-decoration: none;
 
@@ -458,7 +454,7 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: 18px;
+    font-size: 17px;
 
     margin-bottom: 12px;
 }
@@ -471,9 +467,9 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: clamp(24px, 3vw, 32px);
+    font-size: clamp(20px, 3vw, 22px);
 
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 
@@ -486,7 +482,7 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: 20px;
+    font-size: 18px;
 
     margin-bottom: 20px;
 }
@@ -499,7 +495,7 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: 18px;
+    font-size: 15px;
 
     line-height: 1.5;
 }
@@ -536,17 +532,18 @@ nav a:hover::after {
 /* Main project card */
 
 .project-card {
-    width: min(1200px, 100%);
+    width: min(1300px, 100%);
 
     margin: 0 auto;
 
-    padding: 40px;
+    padding: 50px;
 
     background-color: var(--green-light);
 
     border-radius: 35px;
 
     transition: 0.35s ease;
+
 }
 
 
@@ -566,7 +563,7 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: clamp(30px, 4vw, 45px);
+    font-size: clamp(27px, 4vw, 32px);
 
     line-height: 1.1;
 
@@ -583,7 +580,7 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: 19px;
+    font-size: 15px;
 
     line-height: 1.2;
 
@@ -602,7 +599,7 @@ nav a:hover::after {
 
     gap: 40px 100px;
 
-    padding-top: 40px;
+    padding-top: 35px;
 }
 
 
@@ -624,7 +621,7 @@ nav a:hover::after {
 
     font-weight: bold;
 
-    font-size: 22px;
+    font-size: 20px;
 
     letter-spacing: 1px;
 
@@ -639,9 +636,11 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: 17px;
+    font-size: 15px;
 
     line-height: 1.6;
+
+    text-align: justify;
 }
 
 
@@ -657,7 +656,7 @@ nav a:hover::after {
 .solution-item {
     margin-bottom: 28px;
 
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .solution-item:last-child {
@@ -672,9 +671,11 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: 21px;
+    font-size: 17px;
 
     margin-bottom: 8px;
+
+    text-align: justify;
 }
 
 
@@ -685,9 +686,11 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: 17px;
+    font-size: 15px;
 
     line-height: 1.6;
+
+    text-align: justify;
 }
 
 
@@ -702,7 +705,7 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: 17px !important;
+    font-size: 15px !important;
 
     line-height: 1.8 !important;
 }
@@ -768,7 +771,7 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: 28px;
+    font-size: 22px;
 
     margin-bottom: 15px;
 }
@@ -781,7 +784,7 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: 17px;
+    font-size: 14px;
 
     line-height: 1.5;
 }
@@ -835,7 +838,7 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: clamp(28px, 3vw, 38px);
+    font-size: clamp(25px, 3vw, 28px);
 
     font-weight: bold;
 
@@ -847,7 +850,7 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: 18px;
+    font-size: 14px;
 
     line-height: 1.6;
 
@@ -916,7 +919,7 @@ nav a:hover::after {
 
     color: white;
 
-    font-size: 28px;
+    font-size: 24px;
 
     font-family: JetBrains Mono, monospace;
 }
@@ -947,7 +950,7 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: 22px;
+    font-size: 16px;
 
     margin-bottom: 5px;
 }
@@ -958,7 +961,7 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: 16px;
+    font-size: 14px;
 }
 
 
@@ -992,7 +995,7 @@ footer {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: 16px;
+    font-size: clamp(14px, 1.2vw, 10px);
 }
 
 
