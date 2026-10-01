@@ -146,7 +146,7 @@ nav a:hover::after {
 /* Section heading */
 
 .section-heading {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .section-number {
@@ -158,7 +158,7 @@ nav a:hover::after {
 
     letter-spacing: 3px;
 
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .section-heading h2 {
@@ -411,7 +411,7 @@ nav a:hover::after {
 
     padding-left: 55px;
 
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 
 
@@ -443,9 +443,11 @@ nav a:hover::after {
 
     border-radius: 30px;
 
-    padding: 40px;
+    padding: 30px;
 
     transition: 0.35s ease;
+
+    width: 785px;
 }
 
 
@@ -454,13 +456,15 @@ nav a:hover::after {
 .date {
     display: block;
 
-    color: var(--sage);
+    color: #b9e0ca;
 
     font-family: JetBrains Mono, monospace;
 
     font-size: 17px;
 
-    margin-bottom: 12px;
+    margin-bottom: 8px;
+
+    font-weight: bold;
 }
 
 
@@ -471,9 +475,9 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: clamp(20px, 3vw, 22px);
+    font-size: 22px;
 
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 
@@ -482,13 +486,13 @@ nav a:hover::after {
 .experience-card h4 {
     position: static;
 
-    color: #d7e0dc;
+    color: #d5eee0;
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: 18px;
+    font-size: 20px;
 
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 
@@ -499,9 +503,25 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: 15px;
+    font-size: 14px;
 
     line-height: 1.5;
+
+    padding-left: 0px;
+
+}
+
+.experience-card ul {
+    color: #eeeeee;
+
+    font-family: JetBrains Mono, monospace;
+
+    font-size: 14px;
+
+    line-height: 1.5;
+
+    padding-left: 20px;
+
 }
 
 
@@ -536,13 +556,13 @@ nav a:hover::after {
 /* Main project card */
 
 .project-card {
-    width: min(1300px, 100%);
+    width: 1100px;
 
     margin: 0 auto;
 
     padding: 50px;
 
-    background-color: var(--green-light);
+    background-color: var(--green);
 
     border-radius: 35px;
 
@@ -584,7 +604,7 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: 15px;
+    font-size: 14px;
 
     line-height: 1.2;
 
@@ -625,7 +645,7 @@ nav a:hover::after {
 
     font-weight: bold;
 
-    font-size: 20px;
+    font-size: 18px;
 
     letter-spacing: 1px;
 
@@ -640,7 +660,7 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: 15px;
+    font-size: 14px;
 
     line-height: 1.6;
 
@@ -668,20 +688,6 @@ nav a:hover::after {
 }
 
 
-/* Solution item titles */
-
-.solution-item h4 {
-    color: white;
-
-    font-family: JetBrains Mono, monospace;
-
-    font-size: 17px;
-
-    margin-bottom: 8px;
-
-    text-align: justify;
-}
-
 
 /* Solution item descriptions */
 
@@ -690,7 +696,7 @@ nav a:hover::after {
 
     font-family: JetBrains Mono, monospace;
 
-    font-size: 15px;
+    font-size: 14px;
 
     line-height: 1.6;
 
@@ -726,7 +732,7 @@ nav a:hover::after {
 .project-card:hover {
     transform: translateY(-6px);
 
-    background-color: #3c5e52;
+    background-color: var(--green-light);
 }
 
 
@@ -749,7 +755,7 @@ nav a:hover::after {
 
     gap: 25px;
 
-    max-width: 1100px;
+    max-width: 1200px;
 
     margin: 0 auto;
 }
@@ -825,13 +831,19 @@ nav a:hover::after {
 
     padding: 60px;
 
-    background-color: var(--green-light);
+    background-color: var(--green);
 
     border-radius: 35px;
 
     text-align: center;
 
     margin: 0 auto;
+
+    margin-bottom: 120px;
+
+    margin-top: 50px;
+
+    transition: 0.3s ease;
 }
 
 
@@ -981,6 +993,12 @@ nav a:hover::after {
     color: #555555;
 }
 
+
+.contact-card:hover {
+    transform: translateY(-6px);
+
+    background-color: var(--green-light);
+}
 
 /* =========================================================
    FOOTER
